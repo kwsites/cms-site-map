@@ -1,0 +1,27 @@
+{
+  "name": "@kwsites/cms-site-map",
+  "description": "Site map generation for website running the apostrophe cms",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "scripts": {
+    "postversion": "npm publish --access public && git push && git push --tags"
+  },
+  "files": [
+    "index.js",
+    "lib/**/*.*"
+  ],
+  "license": "MIT",
+  "keywords": ["apostrophe", "apostrophecms", "cms", "sitemap", "seo"],
+  "repository": "git://github.com/kwsites/cms-site-map.git",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  }
+}
